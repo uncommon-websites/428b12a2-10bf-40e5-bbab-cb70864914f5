@@ -37,137 +37,146 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		tierNames = ["Essentials", "Professional", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "Assistant module",
+			tiers: {
+				Essentials: true,
+				Professional: true,
+				Enterprise: true
 			}
-		],
+		},
+		{
+			name: "Knowledge (AI-powered research)",
+			tiers: {
+				Essentials: "Core",
+				Professional: "Full",
+				Enterprise: "Full"
+			}
+		},
+		{
+			name: "Vault (secure document workspace)",
+			tiers: {
+				Essentials: "Basic",
+				Professional: "Advanced",
+				Enterprise: "Unlimited"
+			}
+		},
+		{
+			name: "Workflows (multi-step automation)",
+			tiers: {
+				Essentials: "Prebuilt regulatory/tax",
+				Professional: "Transactional, litigation, custom",
+				Enterprise: "Custom programmed workflows"
+			}
+		},
+		{
+			name: "Document upload/analysis",
+			tiers: {
+				Essentials: "Standard",
+				Professional: "Bulk",
+				Enterprise: "Unlimited"
+			}
+		},
+		{
+			name: "Data hosting region",
+			tiers: {
+				Essentials: "US",
+				Professional: "US or EU",
+				Enterprise: "Multi-region"
+			}
+		},
+		{
+			name: "Security & compliance",
+			tiers: {
+				Essentials: "Encryption, zero-train on data",
+				Professional: "SSO, audit logs, encryption",
+				Enterprise: "Custom, global compliance"
+			}
+		},
+		{
+			name: "Support response time",
+			tiers: {
+				Essentials: "Business hours",
+				Professional: "24/7 priority",
+				Enterprise: "Dedicated manager, custom SLA"
+			}
+		},
+		{
+			name: "Integrations",
+			tiers: {
+				Essentials: false,
+				Professional: "Select enterprise apps",
+				Enterprise: "Custom API & integrations"
+			}
+		},
+		{
+			name: "Onboarding & training",
+			tiers: {
+				Essentials: "Standard kickoff",
+				Professional: "Guided onboarding",
+				Enterprise: "Bespoke program"
+			}
+		}
+	],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Essentials",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For teams getting started with domain-specific AI for professional work.",
+			features: [
+				"Access to Assistant module",
+				"Core use of Vault and Knowledge",
+				"Prebuilt regulatory and tax workflows",
+				"Document upload and basic analysis",
+				"Single-region (US) data hosting",
+				"Standard support during business hours"
+			],
+			cta: {
+				label: "Start trial",
+				href: "/get-started?plan=essentials"
 			}
-		]
+		},
+		{
+			name: "Professional",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Expanded access and controls for scaling legal, tax, and service organizations.",
+			features: [
+				"Full access to Assistant, Knowledge, Vault, and Workflows",
+				"Advanced search and analytics",
+				"Enhanced document support",
+				"Enterprise security: SSO, audit logging",
+				"24/7 priority support",
+				"Choose US or EU data region"
+			],
+			cta: {
+				label: "Request demo",
+				href: "/demo?plan=professional"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Custom-configured for global firms and Fortune 500—the most advanced professional workflows and integration.",
+			features: [
+				"End-to-end platform deployments",
+				"Custom-built workflows and integrations",
+				"Unlimited document analysis and storage",
+				"Multi-region/compliance capabilities",
+				"Bespoke onboarding and training",
+				"Dedicated account manager + custom SLA"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact?sales=enterprise"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;
