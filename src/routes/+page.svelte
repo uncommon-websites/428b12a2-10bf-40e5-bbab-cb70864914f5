@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="The platform built for professional judgment"
+  subtitle="Harvey is chosen by elite law firms and Fortune 500 teams to handle high-stakes legal, regulatory, and tax work—securely, end to end."
+  customers={[
+    {
+      name: 'Rachel Allen',
+      position: 'Partner, Vinson & Elkins',
+      imageSrc: '/generated/image-a-cheerful-professional-woman-with-a-con.webp'
+    },
+    {
+      name: 'David Wakeling',
+      position: 'Global Head, A&O Shearman',
+      imageSrc: '/generated/image-an-elderly-male-executive-in-formal-atti.webp'
+    },
+    {
+      name: 'Elena Schmitt',
+      position: 'Chief Counsel, Repsol',
+      imageSrc: '/generated/image-a-confident-businesswoman-with-stylish-s.webp'
+    },
+    {
+      name: 'Michael Torres',
+      position: 'Tax Advisory Partner, PwC',
+      imageSrc: '/generated/image-a-professional-man-in-a-tailored-suit-st.webp'
+    },
+    {
+      name: 'James Lee',
+      position: 'Legal Counsel, KKR',
+      imageSrc: '/generated/image-a-young-male-lawyer-in-a-pristine-office.webp'
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+  label="Trusted by industry leaders"
+  logoUrls={[
+    'https://logo.clearbit.com/pwc.com',
+    'https://logo.clearbit.com/kkr.com',
+    'https://logo.clearbit.com/repsol.com'
+  ]}
+/>
 
 <Summary
 	generating
