@@ -7,39 +7,16 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<CustomerCardHero
-  centered={true}
-  title="The platform built for professional judgment"
-  subtitle="Harvey is chosen by elite law firms and Fortune 500 teams to handle high-stakes legal, regulatory, and tax work—securely, end to end."
-  customers={[
-    {
-      name: 'Rachel Allen',
-      position: 'Partner, Vinson & Elkins',
-      imageSrc: '/generated/image-a-cheerful-professional-woman-with-a-con.webp'
-    },
-    {
-      name: 'David Wakeling',
-      position: 'Global Head, A&O Shearman',
-      imageSrc: '/generated/image-an-elderly-male-executive-in-formal-atti.webp'
-    },
-    {
-      name: 'Elena Schmitt',
-      position: 'Chief Counsel, Repsol',
-      imageSrc: '/generated/image-a-confident-businesswoman-with-stylish-s.webp'
-    },
-    {
-      name: 'Michael Torres',
-      position: 'Tax Advisory Partner, PwC',
-      imageSrc: '/generated/image-a-professional-man-in-a-tailored-suit-st.webp'
-    },
-    {
-      name: 'James Lee',
-      position: 'Legal Counsel, KKR',
-      imageSrc: '/generated/image-a-young-male-lawyer-in-a-pristine-office.webp'
-    }
+<CenteredTextOnlyHero
+  title="Professional class AI for legal work"
+  subtitle="Harvey transforms how elite law firms and Fortune 500 teams handle complex legal, regulatory, and tax matters. Secure, intelligent, and built for the highest stakes."
+  imageSrc="/generated/image-a-modern-law-office-featuring-a-glass-wa.webp"
+  callsToAction={[
+    { href: '/contact', label: 'Request a demo' },
+    { href: '/platform', label: 'Explore platform' }
   ]}
 />
 

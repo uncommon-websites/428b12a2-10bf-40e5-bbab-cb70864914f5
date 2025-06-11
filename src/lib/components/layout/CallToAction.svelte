@@ -68,15 +68,15 @@
 <div class="" {...rest}>
 	<section class="section-px section-py container mx-auto">
 		<div
-			class="bg-card border-border grid content-start items-center justify-between gap-(--gap) rounded-(--radius) border p-(--gap) text-balance [--gap:--spacing(8)] [--inner-radius:calc(var(--radius)-var(--gap))] [--radius:var(--radius-xl)] lg:grid-cols-[2fr_1fr]"
+			class="bg-[var(--color-card)] border-[var(--color-border)] grid content-start items-center justify-between gap-8 rounded-[var(--radius-xl)] border p-8 text-balance lg:grid-cols-[2fr_1fr]"
 		>
 			<div class="items-between grid h-full content-between gap-16">
 				<h2 class="text-title1 mb-3 flex flex-col">
 					<span><AnimateText text={title} /></span>
-					<span class="text-emphasis-low"><AnimateText text={subtitle} /></span>
+					<span class="text-[var(--color-muted-foreground)]"><AnimateText text={subtitle} /></span>
 				</h2>
 				<div class="flex flex-col items-start justify-start gap-7">
-					<p class="text-headline text-emphasis-low">
+					<p class="text-headline text-[var(--color-muted-foreground)]">
 						{description}
 					</p>
 					<div class="flex flex-col md:flex-row md:flex-wrap gap-2 w-full">
@@ -91,7 +91,7 @@
 			<img
 				src={imageSrc}
 				alt="Visual comparison showing product benefits"
-				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
+				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[var(--radius-lg)] object-cover lg:block"
 			/>
 		</div>
 	</section>

@@ -10,19 +10,27 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Human intelligence at the core",
+    description:
+      "We believe professionals—not just products—shape progress. Our team combines world-class legal, technical, and operational minds to tackle meaningful challenges together."
+  },
+  {
+    title: "Collaboration of sharp minds",
+    description:
+      "Innovation is a team sport here. We solve hard problems in close partnership across disciplines and with the global firms we serve."
+  },
+  {
+    title: "Rigor, ethics, and responsibility",
+    description:
+      "We hold ourselves to the highest standards—making thoughtful decisions that matter, and building tools that last."
+  },
+  {
+    title: "Growth through meaningful work",
+    description:
+      "Progress beats hierarchy. Every voice helps shape Harvey, with challenges, deep thought, and curiosity valued above all."
+  }
+];
 </script>
 
 <SecondaryHero
@@ -44,58 +52,18 @@
 <Culture {values} />
 
 <!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
-/>
+<!-- Harvey does not list a public team. We let our product and client results speak for themselves. -->
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Harvey does not list external investors on this page. Trusted by industry leaders as clients and partners. -->
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Join us in shaping the future of professional work"
+  subtitle="Advance what's possible for legal and professional experts"
+  description="We're building the next generation of domain-specific AI for the most complex and critical work in the world. Lawyers, technologists, and leaders can make real impact—with us or through partnership."
+  callsToAction={[
+    { href: "/careers", label: "View careers", variant: "primary" },
+    { href: "/about", label: "Learn about our mission", variant: "secondary" },
+    { href: "/contact", label: "Connect for partnerships", variant: "secondary" }
+  ]}
 />

@@ -46,4 +46,13 @@
 	]}
 />
 
-<CallToAction />
+<CallToAction
+	title="Ready to see the value of professional class AI?"
+	subtitle="Experience AI built for legal, tax, and professional teams."
+	description="Empower your team with Harvey. Boost productivity, accelerate research, and gain peace of mind with industry-leading security and world-class support."
+	imageSrc="/generated/image-a-happy-business-professional-standing-i.webp"
+	callsToAction={[
+		{ href: '/demo', label: 'Schedule a demo', variant: 'primary' },
+		{ href: '/get-started', label: 'Start free trial', variant: 'secondary' }
+	]}
+/>

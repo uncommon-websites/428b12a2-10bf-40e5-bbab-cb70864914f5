@@ -38,13 +38,13 @@ Takes up the full viewport height and centers content vertically.
 	<div class="bg-background relative isolate flex items-center justify-center">
 		<div
 			style:background-image="url('{imageSrc}')"
-			class="absolute top-0 right-4 bottom-4 left-4 -z-10 rounded-(--radius-xl) bg-cover bg-center brightness-100 after:absolute after:inset-0 after:rounded-(--radius-xl) after:shadow-[inset_0_0_100px_40px_rgba(0,0,0,0.3)]"
+			class="absolute top-0 right-4 bottom-4 left-4 -z-10 rounded-[var(--radius-xl)] bg-cover bg-center brightness-100 after:absolute after:inset-0 after:rounded-[var(--radius-xl)] after:shadow-[inset_0_0_100px_40px_rgba(0,0,0,0.3)]"
 		></div>
 
-		<div class="bg-background/50 absolute inset-0"></div>
+		<div class="absolute inset-0 bg-[var(--color-background)]/50"></div>
 
 		<header
-			class="section-px z-50 container mx-auto grid place-items-center text-center text-balance dark:text-white"
+			class="section-px z-50 container mx-auto grid place-items-center text-center text-balance text-[var(--color-foreground)] dark:text-white"
 			data-enter-container
 		>
 			<div class="grid max-w-prose place-items-center justify-center gap-6 lg:max-w-[80ch]">
@@ -63,7 +63,7 @@ Takes up the full viewport height and centers content vertically.
 			{#if callsToAction.length > 0}
 				<div class="mt-8 flex gap-4" data-enter>
 					{#each callsToAction as cta, index}
-						<Button href={cta.href} size="lg" variant="secondary" class="text-black max-lg:hidden"
+						<Button href={cta.href} size="lg" variant="secondary" class="text-[var(--color-foreground)] max-lg:hidden"
 							>{cta.label}</Button
 						>
 						<Button

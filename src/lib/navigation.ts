@@ -163,7 +163,6 @@ export const navigation: NavItem[] = [
 				showInNav: false,
 				showInFooter: true
 			}
-			// Social media might be handled differently, not typically a nav item
 		]
 	}
 ];
