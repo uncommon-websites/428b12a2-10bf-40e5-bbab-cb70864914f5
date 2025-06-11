@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="AI built for legal and tax professionals"
+	subtitle="Domain-specific. Enterprise-secure. Trusted by the world's leading firms."
+	imageSrc="/mockups/airport-screen-1749648462909.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"It started with a simple question: Why does the smartest work we do still feel so manual? Our founders—lawyers, technologists, and former researchers—saw up close how talented professionals in law, consulting, and corporate legal teams spent far too much time on routine research, document review, and repetitive tasks. The tools they had weren’t designed for complex reasoning, and generic AI couldn’t understand the nuance or stakes of high-level legal and regulatory work.",
+		"So they built Harvey—an AI platform trained specifically to understand the language, structure, and precision required in legal, regulatory, and tax domains. From day one, Harvey was designed with enterprise security in mind. We don’t train on customer data, we don’t cut corners, and our models are purpose-built to meet the exacting standards of the world’s top law firms, professional services firms, and corporate legal departments. What good is AI if you can’t trust it where it matters most?",
+		"Today, Harvey empowers teams to focus on what they do best—thinking critically, solving hard problems, and driving strategy—while we take care of the repetition, complexity, and scale. Whether it’s document analysis, regulatory research, or generating high-quality outputs with minimal input, Harvey helps professionals get to expert-level work faster and with more confidence. Because your best judgment deserves the best tools."
 	]}
 />
 

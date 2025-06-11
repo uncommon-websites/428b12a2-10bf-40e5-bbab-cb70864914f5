@@ -53,107 +53,109 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="AI for legal, regulatory, and tax work"
+	text="Harvey builds AI solutions for law firms, professional service providers, and the Fortune 500. Our secure, domain-specific platform streamlines high-stakes work in legal, regulatory, and tax fields, helping teams move faster and work smarter."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Leona Keller",
+			position: "Director of Legal Operations",
+			company: "Westbury Capital",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Harvey reduced our time to complete contract analysis by over 60%. What used to take a week gets done in two days—and with better consistency.",
+			image: "/generated/image-a-professional-woman-in-a-modern-law-off.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Vikram Das",
+			position: "Chief Risk Officer",
+			company: "Altochi Energy",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"By integrating Harvey into our compliance workflows, we cut our regulatory exposure on vendor reviews by nearly half in just one quarter.",
+			image: "/generated/image-a-south-asian-man-in-a-corporate-office-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Maxime Lefèvre",
+			position: "General Counsel",
+			company: "Starrhold Group",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We saved close to $600,000 on outside counsel costs last year thanks to Harvey's support on routine matter intake, admin, and regulatory summaries.",
+			image: "/generated/image-a-french-man-who-is-a-general-counsel-is.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Professional class features"
+	subtitle="Purpose-built AI solutions for legal, regulatory, and tax work—trusted by the world’s most demanding teams."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Domain-specific AI for professionals",
+			description: "Get reliable, relevant answers tailored to your legal, regulatory, and tax work—not generic outputs."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Agentic workflows with zero prompting required",
+			description: "Delegate complex tasks in plain English and receive structured, professional work product—no prompt engineering needed."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Enterprise-grade security",
+			description: "All your data stays confidential with end-to-end encryption and zero model training on customer data."
+		},
+		{
+			title: "Advanced document analysis at scale",
+			description: "Upload hundreds of files and instantly review, compare, and extract insights across entire projects."
+		},
+		{
+			title: "24/7 white glove support",
+			description: "Work with real experts whenever you need help—onboarding, integration, or support."
+		},
+		{
+			title: "Integrated platform for end-to-end work",
+			description: "Manage research, drafting, analysis, and workflows all on a unified, secure platform built for professionals."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "AI-powered contract review",
+			description: "Accelerate contract analysis and reduce risk by letting Harvey summarize, benchmark, and highlight issues—helping your team close deals with confidence and speed.",
+			image: "/generated/image-a-corporate-meeting-with-the-legal-team-.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/contract-analysis",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Continuous compliance insights",
+			description: "Stay on top of changing regulations. Harvey reviews policies, flags exposure, and produces up-to-date compliance reports for your organization—no manual tracking required.",
+			image: "/generated/image-a-group-of-compliance-professionals-in-a.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/compliance-insights",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Intelligent litigation preparation",
+			description: "Transform case preparation by having Harvey organize evidence, summarize precedent, and generate drafts—cutting hours from traditional litigation workflows.",
+			image: "/generated/image-a-litigation-team-preparing-for-court-in.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/litigation-intelligence",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Built for professionals. Trusted by industry leaders."
+  subtitle="Harvey is professional class AI for legal, regulatory, and tax teams."
+  description="Streamline work, delegate tasks, and analyze documents—securely, accurately, and fast. Used across the Fortune 500 and top law firms."
+  imageSrc="/generated/image-a-smiling-legal-professional-in-a-modern.webp"
+  callsToAction={[{ href: '/contact', label: 'Request a demo', variant: 'primary' }, { href: '/security', label: 'Learn more about security', variant: 'secondary' }]}
+/>

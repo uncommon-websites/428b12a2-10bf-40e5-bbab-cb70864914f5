@@ -12,7 +12,7 @@
 	import { beforeNavigate } from "$app/navigation";
 
 	// Props
-	const { items = [] }: { items: typeof navigation } = $props();
+	const { items = [] }: { items?: NavItem[] } = $props();
 
 	// State
 	let isMenuOpen = $state(false);
